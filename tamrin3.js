@@ -19,6 +19,6 @@ function getInput(name, id, year, courses, marks) {
 }
 function showStudentsInYear(year){
     for(let key in students){
-        if (students[key].year === 88) console.log(students[key]);
+        if (students[key].year === year) console.log(students[key]);
     }
 }
